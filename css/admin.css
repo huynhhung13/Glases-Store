@@ -1,0 +1,162 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 1px #009879 solid;
+    text-align: center;
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+h4{
+    color:aliceblue;
+    font-family: sans-serif;
+}
+a{
+    font-family: sans-serif;
+    color: white;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 100%;}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #009879;
+  min-height: 1000px;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: lemonchiffon;
+  padding: 15px;
+}
+
+.copyright{
+    color: #009879 !important;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
+
+.add-form input[type=text]{
+    padding: 10px;
+    margin:10px 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    font-family:sans-serif;
+    font-size: inherit;
+    width: 500px;
+}
+.add-form label{
+    font-family:sans-serif;
+    color: #009879;
+    width: 150px;
+}
+.title{
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    color: #009879;
+    padding: 10px;
+    margin:10px 0;
+}
+
+.add-form input[type=submit]{
+     /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+
+  /* usual styles */
+  padding:10px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:100%;
+}
+.add-form input[type=submit]{
+    /* remove default behavior */
+ appearance:none;
+ -webkit-appearance:none;
+
+ /* usual styles */
+ padding:10px;
+ border:none;
+ background-color:#009879;
+ color:#fff;
+ font-weight:600;
+ border-radius:5px;
+ width:100%;
+}
+.add-form select{
+    padding: 10px;
+    margin:10px 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    font-family:sans-serif;
+    font-size: inherit;
+}
+.welcome h1{
+    padding: 10px;
+    margin:10px 0;
+    color:#009879; 
+    font-family:sans-serif;
+    font-weight:600;
+    border-bottom: #009879 2px solid;
+}
+.login-form input{
+    padding: 10px;
+    margin:10px 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    font-family:sans-serif;
+    font-size: inherit;
+    width: 500px;
+}
+.login-form label{
+    font-family:sans-serif;
+    color: #009879;
+    width: 150px;
+}
+.login-form input[type=submit]{
+    padding:10px;
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    width:30%;
+}
+.login-form h1{
+    color:#3F51B5;
+}
